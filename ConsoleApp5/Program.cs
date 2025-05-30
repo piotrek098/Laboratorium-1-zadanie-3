@@ -8,7 +8,7 @@ class XORGenetyczny
     static void Main()
     {
         double ZDMin = -10, ZDMax = 10;
-        int LBnP = 3;
+        int LBnP = 4;
         int liczbaWag = 9;
         int LBnOs = LBnP * liczbaWag;
         int liczbaOsobnikow = 13;
@@ -18,10 +18,10 @@ class XORGenetyczny
 
         double[][] wejscia = new double[][]
         {
-            new double[] { 1, 0, 0 },
+            new double[] { 0, 0, 0 },
             new double[] { 1, 0, 1 },
-            new double[] { 1, 1, 0 },
-            new double[] { 1, 1, 1 }
+            new double[] { 0, 1, 0 },
+            new double[] { 1, 1, 0 }
         };
 
         double[] wyjscia = new double[] { 0, 1, 1, 0 };
